@@ -1,2 +1,8 @@
 # RNA_pipline
-HISAT STAR DESEQ2 RRA
+预处理
+
+mapping
+HISAT samtools faturecount 
+STAR                          （exf）DESEQ2     RRA
+
+小鼠 移植瘤
