@@ -3,7 +3,7 @@
 
 mapping
 HISAT samtools faturecount 
-STAR                          （exf）DESEQ2     RRA
+STAR                          （XenofilteR）DESEQ2     RRA
 
 小鼠 移植瘤
 
