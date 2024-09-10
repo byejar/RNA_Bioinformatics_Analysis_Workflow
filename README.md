@@ -1,20 +1,4 @@
-# RNA_pipline
-预处理
-
-
-HISAT2 samtools faturecount 
-STAR                          （XenofilteR）DESEQ2     RRA
-
-小鼠 移植瘤
-
-cellline
-KR
-
-PDX
-
-### GWCNA
-
-# Bioinformatics Analysis Workflow
+# RNA Bioinformatics Analysis Workflow
 
 1. **RNA-seq Data Processing**:
    - Use **HISAT2** for alignment, followed by **Samtools** and **featureCounts**.
@@ -38,11 +22,11 @@ PDX
 ## Simplified Flowchart
 
 ```plaintext
-       +----------------------------+
-       |     RNA-seq Processing      |
-       | HISAT2 -> Samtools -> Count |
-       |      OR STAR Alignment      |
-       +----------------------------+
+       +-------------------------------------+
+       |     RNA-seq Processing              |
+       | HISAT2 -> Samtools -> featuceCounts |
+       |        OR STAR Alignment            |
+       +-------------------------------------+
                    |
                    v
        +-----------------------------+
