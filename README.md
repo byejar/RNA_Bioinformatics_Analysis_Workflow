@@ -16,7 +16,7 @@
      - **CIBERSORT** for immune cell composition analysis.
 
 4. **Key Regulator Analysis**:
-   - If there are multiple KR, apply **RRA** (Robust Rank Aggregation) **WGCNA** (Weighted Gene Co-expression Network Analysis) and DEGreport.
+   - If there are multiple KR cells, apply **RRA** (Robust Rank Aggregation) **WGCNA** (Weighted Gene Co-expression Network Analysis) and **DEGreport**.
 
 5. **Gene Annotation**:
    - Annotate genes using a **GTF file**.
@@ -51,8 +51,8 @@
           |        Two Parallel Analysis Paths   |
           +--------------------------------------+
                /                            \
-        Further Analysis               Multiple Key Regulators
-          Options                          (KR) Detected?
+        Further Analysis               Multiple KR cell
+          Options                           Detected?
              |                                /        \
    +--------------------+                  Yes        No
    |  GSEA (javaGSEA)    |                   |          |
