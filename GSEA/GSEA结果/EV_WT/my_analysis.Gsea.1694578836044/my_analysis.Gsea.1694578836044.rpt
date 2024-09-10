@@ -1,0 +1,33 @@
+producer_class	xtools.gsea.Gsea
+producer_timestamp	1694578836044
+param	zip_report	false
+param	num	100
+param	scoring_scheme	weighted
+param	norm	meandiv
+param	out	/home/wus/gsea_home/output/sep13/EV_WT
+param	mode	Max_probe
+param	include_only_symbols	true
+param	set_max	500
+param	gmx	ftp.broadinstitute.org://pub/gsea/msigdb/human/gene_sets/h.all.v2023.1.Hs.symbols.gmt
+param	plot_top_x	20
+param	nperm	1000
+param	order	descending
+param	rnd_seed	timestamp
+param	rpt_label	my_analysis
+param	set_min	15
+param	res	/home/wus/023_2023-9-7_cxl_RNA/023-clx-X101SC23062450-Z01-J004/cell_line_analysis/11_GSEA/EV_WT_express.gct
+param	create_svgs	false
+param	cls	/home/wus/023_2023-9-7_cxl_RNA/023-clx-X101SC23062450-Z01-J004/cell_line_analysis/11_GSEA/EV_WT.cls#EV_versus_WT
+param	sort	real
+param	create_gcts	false
+param	help	false
+param	save_rnd_lists	false
+param	median	false
+param	metric	Signal2Noise
+param	make_sets	true
+param	rnd_type	no_balance
+param	gui	false
+param	permute	gene_set
+param	collapse	No_Collapse
+
+file	/home/wus/gsea_home/output/sep13/EV_WT/my_analysis.Gsea.1694578836044/index.html
